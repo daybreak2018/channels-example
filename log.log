@@ -1,0 +1,89 @@
+sudo: unable to resolve host ubuntu
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 316, in execute
+    autoreload.check_errors(django.setup)()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 226, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 115, in populate
+    app_config.ready()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/apps.py", line 22, in ready
+    self.module.autodiscover()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/admin.py", line 7, in <module>
+    from django.contrib.auth.forms import (
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/forms.py", line 63, in <module>
+    class UserCreationForm(forms.ModelForm):
+  File "/usr/local/lib/python2.7/dist-packages/django/forms/models.py", line 208, in __new__
+    new_class = super(ModelFormMetaclass, mcs).__new__(mcs, name, bases, attrs)
+  File "/usr/local/lib/python2.7/dist-packages/django/forms/forms.py", line 52, in __new__
+    for attr, value in base.__dict__.items():
+KeyboardInterrupt
+sudo: unable to resolve host ubuntu
+Not Found: /index.php
+2017-10-20 20:41:21,027 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:21] HTTP GET /index.php 404 [0.35, 46.229.168.73:61638]
+Not Found: /index.php
+2017-10-20 20:41:21,719 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:21] HTTP GET /index.php 404 [0.02, 46.229.168.79:33592]
+Not Found: /index.php
+2017-10-20 20:41:24,718 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:24] HTTP GET /index.php 404 [0.02, 46.229.168.73:37296]
+Not Found: /index.php
+2017-10-20 20:41:25,472 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:25] HTTP GET /index.php 404 [0.04, 46.229.168.71:49708]
+Not Found: /index.php
+2017-10-20 20:41:29,044 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:29] HTTP GET /index.php 404 [0.03, 46.229.168.67:65156]
+Not Found: /index.php
+2017-10-20 20:41:37,068 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:37] HTTP GET /index.php 404 [0.02, 46.229.168.67:10366]
+Not Found: /index.php
+2017-10-20 20:41:38,550 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:38] HTTP GET /index.php 404 [0.02, 46.229.168.70:18028]
+[2017/10/20 20:41:44] HTTP GET /royal-fashion-7670/ 200 [0.16, 103.27.140.183:57717]
+[2017/10/20 20:41:46] HTTP GET /royal-fashion-7670/ 200 [0.05, 103.27.140.183:57717]
+[2017/10/20 20:41:46] HTTP GET /static/chat.css 304 [0.02, 103.27.140.183:57719]
+[2017/10/20 20:41:46] HTTP GET /static/reconnecting-websocket.min.js 304 [0.01, 103.27.140.183:57721]
+[2017/10/20 20:41:46] HTTP GET /static/normalize.css 304 [0.04, 103.27.140.183:57717]
+[2017/10/20 20:41:46] HTTP GET /static/jquery-1.12.1.min.js 304 [0.04, 103.27.140.183:57720]
+[2017/10/20 20:41:46] HTTP GET /static/skeleton.css 304 [0.04, 103.27.140.183:57718]
+[2017/10/20 20:41:47] HTTP GET /static/chat.js 304 [0.01, 103.27.140.183:57723]
+Not Found: /index.php
+2017-10-20 20:41:51,774 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:51] HTTP GET /index.php 404 [0.03, 46.229.168.70:50758]
+Not Found: /index.php
+2017-10-20 20:41:52,258 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:52] HTTP GET / 200 [0.05, 103.27.140.183:57717]
+[2017/10/20 20:41:52] HTTP GET /index.php 404 [0.01, 46.229.168.70:13954]
+Not Found: /index.php
+2017-10-20 20:41:57,434 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:41:57] HTTP GET /index.php 404 [0.16, 46.229.168.74:47204]
+Not Found: /index.php
+2017-10-20 20:42:06,738 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:42:06] HTTP GET /index.php 404 [0.02, 46.229.168.76:54440]
+Not Found: /index.php
+2017-10-20 20:42:16,167 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:42:16] HTTP GET /index.php 404 [0.03, 46.229.168.74:10092]
+Not Found: /index.php
+2017-10-20 20:42:17,067 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:42:17] HTTP GET /index.php 404 [0.05, 46.229.168.70:25126]
+Not Found: /index.php
+2017-10-20 20:42:25,201 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:42:25] HTTP GET /index.php 404 [0.03, 46.229.168.65:59382]
+Not Found: /index.php
+2017-10-20 20:42:29,194 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:42:29] HTTP GET /index.php 404 [0.03, 46.229.168.65:27702]
+Not Found: /index.php
+2017-10-20 20:42:33,233 - WARNING - base - Not Found: /index.php
+[2017/10/20 20:42:33] HTTP GET /index.php 404 [0.05, 46.229.168.79:26404]
